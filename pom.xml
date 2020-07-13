@@ -9,6 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>hjh-eurake-client</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -18,7 +21,6 @@
         <codehaus-jackson.version>1.9.13</codehaus-jackson.version>
         <mapper.version>3.4.0</mapper.version>
     </properties>
-
     <dependencies>
         <!--swagger-->
         <dependency>
@@ -73,18 +75,4 @@
             <version>3.8</version>
         </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-            <id>maven-ali</id>
-            <url>http://maven.aliyun.com/nexus/content/groups/public//</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>fail</checksumPolicy>
-            </snapshots>
-        </repository>
-    </repositories>
 </project>
