@@ -1,0 +1,13 @@
+spring:
+  #环境 dev/test/prod
+  profiles:
+    active: test
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+cache:
+  jcache:
+    config: classpath:ehcache.xml
+#flowable:
+  #关闭定时任务JOB
+  #async-executor-activate: false
