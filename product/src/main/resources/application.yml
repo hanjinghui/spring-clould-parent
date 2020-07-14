@@ -8,11 +8,11 @@ eureka:
       defaultZone: http://localhost:8088/eureka/
 spring:
   application:
-   name: product
+     name: product
   datasource:
-    name: sell
-    url:  jdbc:mysql://localhost:3306/sell?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
-
+     url:  jdbc:mysql://localhost:3306/sell?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+     username: root
+     password: root
+     driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapperLocations: classpath:/mapper/*.xml
