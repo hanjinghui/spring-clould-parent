@@ -10,8 +10,8 @@ spring:
   application:
     name: hjh-eurake-client
   datasource:
-    name: upm_flowable
-    url:  jdbc:mysql://localhost:3306/upm_flowable?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    name: sell
+    url:  jdbc:mysql://localhost:3306/sell?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
