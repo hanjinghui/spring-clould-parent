@@ -33,6 +33,36 @@
         </option>
         <option name="tableGenerateConfigs">
           <map>
+            <entry key="sell:order_detail">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="OrderDetail" />
+                  <option name="moduleName" value="product" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="sell:order_master">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="OrderMaster" />
+                  <option name="moduleName" value="product" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="sell:product_category">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="category_id" />
+                  <option name="javaModelName" value="ProductCategory" />
+                  <option name="moduleName" value="product" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
             <entry key="sell:product_info">
               <value>
                 <TableGenerateConfig>

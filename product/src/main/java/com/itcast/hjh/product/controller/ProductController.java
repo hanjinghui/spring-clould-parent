@@ -1,5 +1,6 @@
 package com.itcast.hjh.product.controller;
 
+import com.itcast.hjh.base.enums.ProductEnum;
 import com.itcast.hjh.product.pojo.ProductInfo;
 import com.itcast.hjh.product.pojo.ProductInfoExample;
 import com.itcast.hjh.product.service.ProductInfoService;
@@ -21,7 +22,7 @@ public class ProductController {
 
         ProductInfoExample productInfoExample = new ProductInfoExample();
         ProductInfoExample.Criteria criteria = productInfoExample.createCriteria();
-        criteria.andCategoryTypeEqualTo(1);
+        criteria.andCategoryTypeEqualTo(ProductEnum.UP.getCode());
         List<ProductInfo> productInfos = productInfoService.selectByExample(productInfoExample);
         return  productInfos;
     }
