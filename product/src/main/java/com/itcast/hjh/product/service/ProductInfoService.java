@@ -3,6 +3,7 @@ package com.itcast.hjh.product.service;
 import java.util.List;
 import com.itcast.hjh.product.pojo.ProductInfoExample;
 import com.itcast.hjh.product.pojo.ProductInfo;
+import com.itcast.hjh.product.productVo.ProductVO;
 
 public interface ProductInfoService{
 
@@ -29,4 +30,5 @@ public interface ProductInfoService{
 
     int updateByPrimaryKey(ProductInfo record);
 
+    List<ProductVO> selectProductListByCategory();
 }
