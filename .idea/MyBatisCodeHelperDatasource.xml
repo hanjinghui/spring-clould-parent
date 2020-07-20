@@ -6,7 +6,7 @@
         <option name="addSerializeUid" value="true" />
         <option name="generateService" value="true" />
         <option name="generateServiceInterface" value="true" />
-        <option name="javaMapperPackage" value="com.itcast.hjh.product.dao" />
+        <option name="javaMapperPackage" value="com.itcast.hjh.product.mapper" />
         <option name="javaMapperPath" value="$PROJECT_DIR$/product/src/main/java" />
         <option name="javaModelPackage" value="com.itcast.hjh.product.pojo" />
         <option name="javaModelPath" value="$PROJECT_DIR$/product/src/main/java" />
@@ -16,7 +16,7 @@
             <entry key="product">
               <value>
                 <UserPackageAndPathInfoByModule>
-                  <option name="javaMapperPackage" value="com.itcast.hjh.product.dao" />
+                  <option name="javaMapperPackage" value="com.itcast.hjh.product.mapper" />
                   <option name="javaMapperPath" value="$PROJECT_DIR$/product/src/main/java" />
                   <option name="javaModelPacakge" value="com.itcast.hjh.product.pojo" />
                   <option name="javaModelPath" value="$PROJECT_DIR$/product/src/main/java" />
@@ -68,6 +68,16 @@
                 <TableGenerateConfig>
                   <option name="generatedKey" value="" />
                   <option name="javaModelName" value="ProductInfo" />
+                  <option name="moduleName" value="product" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="sell:sell_config">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="SellConfig" />
                   <option name="moduleName" value="product" />
                   <option name="useActualColumnName" value="false" />
                 </TableGenerateConfig>

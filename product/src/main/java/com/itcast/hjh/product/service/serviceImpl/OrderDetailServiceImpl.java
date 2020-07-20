@@ -5,7 +5,7 @@ import javax.annotation.Resource;
 import com.itcast.hjh.product.pojo.OrderDetail;
 import java.util.List;
 import com.itcast.hjh.product.pojo.OrderDetailExample;
-import com.itcast.hjh.product.dao.OrderDetailMapper;
+import com.itcast.hjh.product.mapper.OrderDetailMapper;
 import com.itcast.hjh.product.service.OrderDetailService;
 @Service
 public class OrderDetailServiceImpl implements OrderDetailService{

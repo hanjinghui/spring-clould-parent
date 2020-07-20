@@ -2,64 +2,64 @@
   "groups": [
     {
       "name": "config",
-      "type": "com.itcast.hjh.util.ConfigUtil",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "type": "com.itcast.hjh.common.util.ConfigUtil",
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     }
   ],
   "properties": [
     {
       "name": "config.aftergwork",
       "type": "java.lang.String",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     },
     {
       "name": "config.cjgly",
       "type": "java.lang.String",
       "description": "超级管理员角色code",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     },
     {
       "name": "config.glygw",
       "type": "java.lang.String",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     },
     {
       "name": "config.hsgw",
       "type": "java.lang.String",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     },
     {
       "name": "config.morningwork",
       "type": "java.lang.String",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     },
     {
       "name": "config.nightwork",
       "type": "java.lang.String",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     },
     {
       "name": "config.remote-path",
       "type": "java.lang.String",
       "description": "上传相对路径",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     },
     {
       "name": "config.user-img-road",
       "type": "java.lang.String",
       "description": "user图像路径1",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     },
     {
       "name": "config.ysgw",
       "type": "java.lang.String",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     },
     {
       "name": "config.zzgly",
       "type": "java.lang.String",
       "description": "组织管理员角色code",
-      "sourceType": "com.itcast.hjh.util.ConfigUtil"
+      "sourceType": "com.itcast.hjh.common.util.ConfigUtil"
     }
   ],
   "hints": []

@@ -10,7 +10,6 @@ spring:
   application:
     name: hjh-eurake-client
   datasource:
-    name: sell
     url:  jdbc:mysql://localhost:3306/sell?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password: root

@@ -19,6 +19,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
       <module name="hjh-eurake-client" options="-parameters" />
       <module name="hjh-eurake-client2" options="" />
       <module name="hjh-eurake-server" options="-parameters" />

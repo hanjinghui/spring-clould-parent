@@ -3,7 +3,7 @@ package com.itcast.hjh.product.service.serviceImpl;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import com.itcast.hjh.product.pojo.OrderMaster;
-import com.itcast.hjh.product.dao.OrderMasterMapper;
+import com.itcast.hjh.product.mapper.OrderMasterMapper;
 import java.util.List;
 import com.itcast.hjh.product.pojo.OrderMasterExample;
 import com.itcast.hjh.product.service.OrderMasterService;

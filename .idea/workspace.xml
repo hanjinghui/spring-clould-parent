@@ -2,22 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1961b11-2717-4a59-9cdb-295cb0e93874" name="Default Changelist" comment="Merge branch 'master' of https://github.com/hanjinghui/spring-clould-parent&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ProductInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ProductVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/base/enums/ProductEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/SendEmailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/properties/Ftp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/properties/Ftp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/SellConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/SellConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/SellConfigExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ConfigProterties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/SellConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/SellConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/email.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/mapper/SellConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upm-vue/src/utils/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upm-vue/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4b70f0d-21a1-4da8-aa5d-25fdf1c4b16e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4b70f0d-21a1-4da8-aa5d-25fdf1c4b16e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/base/enums/ErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/base/enums/ErrorCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/base/enums/ProductEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/base/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/base/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/mybatis/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/mybatis/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/mybatis/MyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/mybatis/MyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/support/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/support/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/support/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/support/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/support/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/support/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/logging/IPAddressConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/logging/IPAddressConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/logging/ModuleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/logging/ModuleConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/ConfigUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/CopyFileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/CopyFileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/DeleteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/DeleteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/FtpApche.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/FtpApche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/Md5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/Md5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/PublicUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/PublicUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/RegExpValidatorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/RegExpValidatorUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ThreadLocalMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/ThreadLocalMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/UUIDGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/UUIDGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ZipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/ZipUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/wrapper/WrapMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/wrapper/WrapMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/wrapper/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/wrapper/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/zk/generator/IdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/zk/generator/IdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/zk/generator/IncrementIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/zk/generator/IncrementIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/zk/generator/UniqueIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/zk/generator/UniqueIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/base/enums/ErrorCodeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/base/enums/ProductEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/base/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/core/mybatis/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/core/mybatis/MyMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/core/support/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/core/support/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/logging/IPAddressConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/logging/ModuleConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/ConfigUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/CopyFileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/DeleteFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/ExcelUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/FtpApche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/HttpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/Md5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/PageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/PublicUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/RegExpValidatorUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/ThreadLocalMap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/ThreadLocalMap$MapThreadLocal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/ThreadLocalMap$MapThreadLocal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/ThreadLocalMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/UUIDGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/ZipUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/wrapper/WrapMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/util/wrapper/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/zk/generator/IdGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/zk/generator/IncrementIdGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/itcast/hjh/zk/generator/UniqueIdGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/unicom/zhyl/common/core/support/IService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hjh-eurake-client/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hjh-eurake-client/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/ProductApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/dao/OrderDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/dao/OrderMasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/OrderMasterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/dao/ProductCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/ProductCategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/dao/ProductInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/ProductInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/ProductInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/ProductInfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/ProductInfoExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/ProductInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/ProductInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/OrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/OrderMasterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/OrderMasterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/ProductCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/ProductCategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/ProductInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/ProductInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/mapper/OrderDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/mapper/OrderDetailMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/mapper/OrderMasterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/mapper/OrderMasterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/mapper/ProductCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/mapper/ProductCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/mapper/ProductInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/mapper/ProductInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upm-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/upm-vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upm-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/upm-vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upm-vue/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upm-vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/upm-vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upm-vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/upm-vue/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upm-vue/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/upm-vue/src/views/Home.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,42 +167,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="30" column="69" lean-forward="true" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+            <state relative-caret-position="286">
+              <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/ProductInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="355">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/ProductInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
-              <folding>
-                <element signature="e#2057#2058#0" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/wrapper/Wrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="461">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,21 +208,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ProductVO.java">
+        <entry file="file://$PROJECT_DIR$/product/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ProductInfoVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="309">
               <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -136,10 +230,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/ProductInfo.java">
+        <entry file="file://$PROJECT_DIR$/product/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="50" column="28" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="28" />
+            <state relative-caret-position="550">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ProductVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ConfigProterties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/SellConfigServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-669">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -149,6 +276,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -159,24 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hjh-eurake-server/pom.xml" />
-        <option value="$PROJECT_DIR$/hjh-eurake-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hjh-eurake-client/pom.xml" />
-        <option value="$PROJECT_DIR$/product/.gitignore" />
-        <option value="$PROJECT_DIR$/hjh-eurake-client/src/main/resources/application-test.yml" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/ProductController.java" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/dao/ProductInfoMapper.java" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/ProductInfoExample.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/ProductApplication.java" />
-        <option value="$PROJECT_DIR$/product/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sell-common/src/main/java/com/unicom/zhyl/common/base/enums/ProductStatusEnum.java" />
-        <option value="$PROJECT_DIR$/sell-common/pom.xml" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/base/enums/ProductEnum.java" />
-        <option value="$PROJECT_DIR$/product/pom.xml" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ExcelUtil.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/DateUtils.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/CopyFileUtil.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ConfigUtil.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/wrapper/Base64.java" />
@@ -207,9 +317,27 @@
         <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ProductVO.java" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/ProductInfo.java" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ProductInfoVo.java" />
+        <option value="$PROJECT_DIR$/hjh-eurake-client/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/product/src/test/java/com/itcast/hjh/product/controller/ProductControllerTest.java" />
+        <option value="$PROJECT_DIR$/product/pom.xml" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/ProductApplication.java" />
+        <option value="$PROJECT_DIR$/product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/ProductApplication.java" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/OrderDetailMapper.java" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/OrderMasterMapper.java" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/ProductCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/ProductInfoMapper.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/base/enums/ProductEnum.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/product/src/main/resources/email.properties" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/ProductInfoService.java" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/SellConfigMapper.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/SendEmailUtil.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/ConfigProterties.java" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/ProductInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ConfigProterties.java" />
       </list>
     </option>
   </component>
@@ -231,11 +359,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="640" />
-    <option name="height" value="435" />
+    <option name="width" value="800" />
+    <option name="height" value="540" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -243,117 +371,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="hjh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="hjh" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="hjh" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="hjh" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="hjh" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -447,19 +472,6 @@
               <item name="itcast" type="462c0819:PsiDirectoryNode" />
               <item name="hjh" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="hjh" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
               <item name="productVo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -489,12 +501,18 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-clould-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-clould-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -505,7 +523,9 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594801902411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595236008746" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sell-common/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -513,11 +533,23 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.itcast.hjh.product.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.itcast.hjh.product.productVo" />
+      <recent name="com.itcast.hjh.common.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\89242\Desktop\本地git项目\spring-clould-parent\product\src\main\resources" />
+      <recent name="C:\Users\89242\Desktop\本地git项目\spring-clould-parent\common\src\main\resources" />
       <recent name="C:\Users\89242\Desktop\本地git项目\spring-clould-parent\hjh-eurake-client2\src\main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itcast.hjh.product.productVo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,6 +582,7 @@
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="product" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcast.hjh.product.ProductApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -573,18 +606,23 @@
       <workItem from="1594629573681" duration="22701000" />
       <workItem from="1594774396452" duration="3315000" />
       <workItem from="1594777753393" duration="944000" />
-      <workItem from="1594778810816" duration="10729000" />
+      <workItem from="1594778810816" duration="21700000" />
+      <workItem from="1594889471088" duration="30448000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ProductControllerTest_productList - 2020.07.16 at 14h 55m 43s.xml">
+      <configuration name="ProductControllerTest.productList" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20849000" />
+    <option name="totallyTimeSpent" value="62268000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -595,7 +633,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4546742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -615,7 +653,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
-      <window_info anchor="right" id="Database" order="7" weight="0.21447721" />
+      <window_info anchor="right" id="Database" order="7" weight="0.21179625" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="RestServices" order="10" />
@@ -625,243 +663,47 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/controller/ProductController.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/ProductInfoServiceImpl.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>new String(filePath.getBytes(&quot;ISO-8859-1&quot;),&quot;utf-8&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/dao/ProductInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sell-common/src/main/java/com/unicom/zhyl/common/base/enums/ProductStatusEnum.java" />
-    <entry file="file://$PROJECT_DIR$/sell-common/src/main/java/com/unicom/zhyl/common/base/enums/ErrorCodeEnum.java" />
-    <entry file="file://$PROJECT_DIR$/sell-common/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/sell-common/src/main/java/com/unicom/zhyl/common/util/wrapper/Wrapper.java" />
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/dao/ProductCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/dao/OrderMasterMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/dao/OrderDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/resources/mapper/ProductInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/ProductApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ConfigUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/CopyFileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/DeleteFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/FtpApche.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/Md5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/PublicUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/RegExpValidatorUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ThreadLocalMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/UUIDGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ZipUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/zk/generator/IdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/zk/generator/IncrementIdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/zk/generator/UniqueIdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/base/enums/ProductEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/base/exception/BusinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/logging/ModuleConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/logging/IPAddressConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/support/IService.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/support/IService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/support/BaseController.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/support/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -871,7 +713,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/mybatis/BaseEntity.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/mybatis/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1351">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -881,14 +723,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/support/BaseService.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/support/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/wrapper/WrapMapper.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/wrapper/WrapMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -900,24 +742,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/wrapper/Base64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ValidationUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/core/mybatis/MyMapper.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/wrapper/Base64.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/ValidationUtil.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/core/mybatis/MyMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -927,22 +754,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/base/enums/ErrorCodeEnum.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/base/enums/ErrorCodeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/util/wrapper/Wrapper.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/wrapper/Wrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -952,9 +771,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hjh-eurake-client/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/test/java/com/itcast/hjh/product/controller/ProductControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/ProductInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hjh-eurake-client/src/main/resources/application-home.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hjh-eurake-server/src/main/java/com/itcast/hjh/hjheurakeserver/HjhEurakeServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hjh-eurake-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hjh-eurake-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/logging/ModuleConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/logging/IPAddressConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/properties/Ftp.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/OrderDetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/OrderMasterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/OrderDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/OrderMasterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/ProductCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/ProductCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/base/enums/ProductEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/Java/jdk1.8/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid77468.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/target/classes/email.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="5" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/ProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/resources/email.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/ProductInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/SendEmailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1706">
+          <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/replay_pid65924.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/mapper/SellConfigMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/itcast/hjh/common/util/ConfigProterties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#590#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ProductVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="150">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -964,25 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ProductInfoVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="309">
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/pojo/ProductInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="30" column="69" lean-forward="true" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -991,18 +998,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/ProductInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="355">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/SellConfigServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-669">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/service/serviceImpl/ProductInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
+        <state relative-caret-position="461">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
           <folding>
-            <element signature="e#2057#2058#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/itcast/hjh/product/productVo/ConfigProterties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

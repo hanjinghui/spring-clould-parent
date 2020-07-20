@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-
 public class ProductInfoExample {
     protected String orderByClause;
 
@@ -504,6 +503,76 @@ public class ProductInfoExample {
 
         public Criteria andProductIconNotBetween(String value1, String value2) {
             addCriterion("product_icon not between", value1, value2, "productIcon");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusIsNull() {
+            addCriterion("product_status is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusIsNotNull() {
+            addCriterion("product_status is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusEqualTo(String value) {
+            addCriterion("product_status =", value, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusNotEqualTo(String value) {
+            addCriterion("product_status <>", value, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusGreaterThan(String value) {
+            addCriterion("product_status >", value, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusGreaterThanOrEqualTo(String value) {
+            addCriterion("product_status >=", value, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusLessThan(String value) {
+            addCriterion("product_status <", value, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusLessThanOrEqualTo(String value) {
+            addCriterion("product_status <=", value, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusLike(String value) {
+            addCriterion("product_status like", value, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusNotLike(String value) {
+            addCriterion("product_status not like", value, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusIn(List<String> values) {
+            addCriterion("product_status in", values, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusNotIn(List<String> values) {
+            addCriterion("product_status not in", values, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusBetween(String value1, String value2) {
+            addCriterion("product_status between", value1, value2, "productStatus");
+            return (Criteria) this;
+        }
+
+        public Criteria andProductStatusNotBetween(String value1, String value2) {
+            addCriterion("product_status not between", value1, value2, "productStatus");
             return (Criteria) this;
         }
 

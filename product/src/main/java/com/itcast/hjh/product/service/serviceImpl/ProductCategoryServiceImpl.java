@@ -3,7 +3,7 @@ package com.itcast.hjh.product.service.serviceImpl;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
-import com.itcast.hjh.product.dao.ProductCategoryMapper;
+import com.itcast.hjh.product.mapper.ProductCategoryMapper;
 import com.itcast.hjh.product.pojo.ProductCategoryExample;
 import com.itcast.hjh.product.pojo.ProductCategory;
 import com.itcast.hjh.product.service.ProductCategoryService;
